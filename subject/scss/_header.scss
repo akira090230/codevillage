@@ -1,0 +1,69 @@
+/* header style */
+h1 {
+    font-size: 38px;
+    margin-left: 77px;
+    margin-top: 68px;
+    letter-spacing: 3.8px;
+    @include sp {
+        font-size: 22px;
+        margin-top: 24px;
+        margin-left: 21px;
+        letter-spacing: 2.2px;
+    }
+    }
+    .kuhaku1{
+        margin-right: 5px;
+        @include sp{
+        margin-right: 1px;
+        }
+    }
+
+header{
+    display: flex;
+    position: absolute;
+    
+    } 
+.header-nav li{
+    display: inline-block;
+    font-size: 18px;
+    text-align: left;
+    letter-spacing: 1.8px;
+    margin-right: 15px;   
+    opacity: 1;
+    @include sp {
+        display: none;
+    }     
+}
+.ham{
+    @include sp{
+    width: 18px;
+    height: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 28px;
+    margin-left: 141px;
+    :last-of-type{
+        width: 60%;
+    }
+    span{
+        display: inline-block;
+        width: 100%;
+        height: 2px;
+        background-color: #3B4043;
+        font-weight: bold;
+    }
+}
+}
+.normal{
+    color: black;
+    position: relative;
+}
+.normal::after{
+    display: block;
+    content:"";
+    position: absolute;
+    width: 50px;
+    border-top:1px solid black ;
+    
+}

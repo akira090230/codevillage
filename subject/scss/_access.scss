@@ -1,0 +1,99 @@
+/* ACCESS style */
+.title1{
+    color: #707070; 
+    padding-left: 104px;
+     padding-top: 256px; 
+     padding-bottom: 7px;
+    letter-spacing: 5.4px;
+    @include sp{
+        padding-left:0;
+        padding-bottom: 0;
+        font-size: 18px;
+        padding-top: 60px;
+        padding-left: 20px;
+}}
+.title1 span{
+    border-bottom:1px solid #707070  ;
+    width: 80px;
+    position: absolute;
+    font-weight: bold;
+    margin-top: 6px;
+    margin-left: 12px;
+    @include sp{
+        width: 40px;
+    }
+}
+
+.last{
+    background-color: #A193861F;
+   background-size: cover;
+    margin-top: 70px;
+    @include sp{
+      padding-bottom: 50px;  
+      width: 375px;
+    }
+}
+
+.last-sc{
+    background-color: #D0C5BA;
+    width: 100%;
+    height: 396px;
+    @include sp{
+        width: 375px;
+        height: 282px;
+    }
+    
+}
+.last-sc2{
+    @include sp{
+        iframe{
+            width: 375px;
+            height:231px;
+        }
+    }
+}
+.last-title{
+    font-size: 24px;
+    font-weight: bold;
+    color:#00000038;
+    text-align: left;
+    width: 130px;
+    height: 24px;
+    margin-left: 104px;
+    margin-top: 101px;
+    @include sp{
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+}  
+.address{
+    width: 207px;
+    text-align: left;
+    margin-left: 104px;
+    margin-top: 30px;
+    color:#FFFFFF;
+    letter-spacing: 1.6px;
+    font-size: 16px;
+    line-height:38px;
+    @include sp{
+        margin-left: 20px;
+       margin-top: 15px;
+    }
+   }
+.last-block{
+    display: flex;
+    line-height: 0;
+    @include sp{
+        flex-direction: column-reverse;
+    }
+}
+ .iro{
+     background-color: #A193861F;
+    padding: 35px;
+    @include sp{
+        width: 375px;
+        padding: 0;
+        height: 62px;
+    }
+    
+}

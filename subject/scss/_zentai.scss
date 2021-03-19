@@ -1,0 +1,42 @@
+/* zentai style */
+body{
+    width: 1265px;
+    height: 3787px;    
+}
+
+.title{
+    color: #707070; 
+    padding-left: 104px;
+     padding-top: 256px; 
+     padding-bottom: 7px;
+    letter-spacing: 5.4px;
+    @include sp{
+        padding-left:0;
+        margin-left:20px;
+        padding-bottom: 0;
+        font-size: 18px;
+        padding-top: 60px;
+    }
+   }
+   .title span{
+       border-bottom:1px solid #707070  ;
+       width: 80px;
+       position: absolute;
+       font-weight: bold;
+       margin-top: 6px;
+       margin-left: 12px;
+       @include sp{
+           width: 40px;
+       }
+   }
+   
+ul{
+    list-style: none;   
+    padding-left:20px;
+    padding-top: 77px;
+}
+a{
+    text-decoration: none;
+    color: #707070;
+}
+

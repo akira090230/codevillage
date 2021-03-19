@@ -1,0 +1,110 @@
+/* Menu style */
+.menu-wrap{
+    width: 100%;
+    @include sp{
+        width:100%;
+    }
+}
+.menu-box{
+       display: flex; 
+      justify-content: space-between;
+      margin-top: 11px; 
+      margin-right: 102px;
+    @include sp{
+        flex-direction: column;
+        margin-bottom: 30px;
+        
+    }
+}
+.title-sb1{
+    font-size: 30px;
+    margin-top: 37px;
+    letter-spacing: 3px;
+}
+.title-sb2{
+    font-size: 30px;
+    margin-top: 37px;
+    letter-spacing: 3px; 
+}
+.title-sb3{
+    font-size: 30px;
+    margin-top: 37px;
+    letter-spacing: 3px;
+}
+.kuhaku{
+    margin-right:10px ;
+}
+
+
+ .box-1{ 
+     margin-left: 107px;
+     @include sp{
+         margin-top: 50px;
+         margin-left: 20px;
+         img{
+             width: 335px;
+             height: 271px;
+         }
+     }
+}
+.box-2{
+    @include sp{
+        margin-left: 20px;
+        img{
+            width: 335px;
+             height: 271px;
+        }
+    }
+}
+.box-3{
+    @include sp{
+        margin-left: 20px;
+        img{
+            width: 335px;
+             height: 271px;
+        }
+    }
+}
+.title-sbc{
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 37px;
+    @include sp{
+        text-align: left;
+        margin-left: 33px;
+        margin-top: 30px;
+    }
+    
+}
+
+ .sb2{
+     font-size: 16px;
+     width:250px;
+     height: 131px;
+     margin-top:34px;
+     letter-spacing: 1.6px;
+     line-height: 27px;
+     margin-left: 15px;
+     color: #000000;
+     opacity: 1;
+     @include sp{
+         margin-top: 30px;
+         width:298px;
+         height: 98px;
+         letter-spacing: 1.5px;
+         margin-left: 33px;
+     }
+    }
+    .money{
+        font-weight: bold;
+        text-align: right;
+        margin-top: 52px;
+        @include sp {
+            text-align: left;
+            margin-left: 216px;
+            margin-top: 26px;
+            margin-bottom: 63px;
+        }
+    }
+     
